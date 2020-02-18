@@ -74,6 +74,7 @@ nav ul{
   display: inline-block;
   padding: 14px 10px;
   border-right: 1px solid rgba(0, 0, 0, .4);
+  /* margin-left: -5px; */
 }
 
 nav ul li:last-child{
@@ -150,6 +151,10 @@ a:hover{
   color: #99cc33;
 }
 
+.big{
+  font-size: 26px;
+}
+
 /* Stile lista */
 
 ul{
@@ -169,14 +174,11 @@ li{
 }
 
 .search-bar{
-  /* soluzione temporanea per centrare la barra di ricerca*/
-  display: flex;
-  /* fine soluzione temporanea */
-  width: 80%;
+  width: 90%;
   height: 40px;
   position: absolute;
   top: 50%;
-  left: 45%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
@@ -185,11 +187,12 @@ input{
 }
 
 input[type="text"]{
-  width: 70%;
+  width: 65%;
+  margin-left: 10px;
 }
 
 input[type="submit"]{
-  width: 30%;
+  width: 25%;
   margin-left: 5px;
   background-color: #706760;
   color: white;
@@ -266,6 +269,7 @@ footer{
   background-color: white;
   font-family: "Roboto";
   font-size: 16px;
+  margin-top: 10px;
 }
 
 footer::after{
@@ -295,6 +299,7 @@ footer::after{
   width: 100%;
   font-size: 14px;
   color: #666666;
+  border-top: 1px solid rgba(0, 0, 0, .08);
 }
 
 .link-footer{
