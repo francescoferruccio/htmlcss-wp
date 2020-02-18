@@ -1,5 +1,8 @@
 /* Regole generali */
 *{
+  /* debug */
+  border: 1px solid black;
+  /* end debug */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,12 +14,6 @@
 }
 
 /* Regole Header */
-header{
-  /* debug */
-  background-color: yellow;
-  /* height: 200px; */
-  /* fine debug */
-}
 
 nav{
   /* debug */
@@ -28,16 +25,16 @@ nav{
 
 .logo{
   /* debug */
-  background-color: yellow;
   height: 150px;
   /* fine debug */
 }
 
+body{
+  background-image: url(img/background.png);
+}
+
 /* Regole Main */
 main{
-  /* debug */
-  background-color: green;
-  /* fine debug */
 }
 
 main::after{
@@ -48,28 +45,20 @@ main::after{
 
 /* Sezione left */
 aside{
-  /* debug */
-  background-color: blue;
-  height: 100%;
-  /* fine debug */
   float: left;
   width: 25%;
 }
 
 .widgetleft{
   /* debug */
+  height: 50px;
+  /* end debug */
   background-color: white;
-  height: 100px;
-  /* fine debug */
   margin: 5px;
 }
 
 /* Sezione centrale */
 section{
-  /* debug */
-  background-color: red;
-  height: 800px;
-  /* fine debug */
   float: left;
   width: 50%;
 }
@@ -83,19 +72,13 @@ section{
 
 .widgetright{
   /* debug */
-  background-color: white;
   height: 50px;
-  /* fine debug */
+  /* end debug */
+  background-color: white;
   margin: 5px;
 }
 
 /* Regole footer */
-footer{
-  /* debug */
-  background-color: grey;
-  /* height: 200px; */
-  /* fine debug */
-}
 
 .box-small-footer{
   /* debug */
