@@ -9,16 +9,13 @@
   box-sizing: border-box;
 }
 
-a{
-  text-decoration: none;
-  font-family: "Roboto";
-  font-size: 16px;
-  color: #99cc33;
-}
-
 .main-container{
   width: 70%;
   margin: auto;
+}
+
+p{
+  line-height: 1.5em;
 }
 
 /* Regole Header */
@@ -79,6 +76,7 @@ nav ul li:last-child{
 }
 
 .nav-link a{
+  text-decoration: none;
   color: rgba(255, 255, 255, .7);
   font-size: 14px;
 }
@@ -110,6 +108,13 @@ aside{
   padding: 25px;
 }
 
+.link-green{
+  text-decoration: none;
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #99cc33;
+}
+
 .widgetright{
   background-color: white;
   margin: 10px 0;
@@ -122,9 +127,11 @@ aside{
 }
 
 .link-tag{
+  text-decoration: none;
   padding: 5px;
   font-family: "Roboto";
   font-size: 11px;
+  color: #99cc33;
 }
 
 /* Stile lista */
@@ -175,14 +182,48 @@ input[type="submit"]{
 
 /* Sezione centrale */
 section{
+  margin: 5px 0;
   float: left;
   width: 50%;
-  padding: 5px;
+  padding: 5px 20px;
 }
 
 .post{
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #666666;
   background-color: white;
-  margin: 5px;
+  padding: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, .08);
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.link-articolo{
+  text-decoration: none;
+  color: #504741;
+  font-family: "Montserrat";
+  font-size: 32px;
+}
+
+.img-articolo{
+  width: 100%;
+  padding: 20px 0;
+}
+
+.info-post{
+  font-size: 14px;
+}
+
+.testo-post{
+  margin: 20px 0;
+}
+
+.foot-articolo{
+  padding: 20px 0;
 }
 
 /* Regole footer */
