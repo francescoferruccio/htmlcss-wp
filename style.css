@@ -90,11 +90,18 @@ aside{
 .widgetright{
   background-color: white;
   margin: 10px 0;
+  padding: 25px;
 }
 
 .titolo-widget{
   font-family: "Montserrat";
   font-size: 18px;
+}
+
+.link-tag{
+  padding: 5px;
+  font-family: "Roboto";
+  font-size: 11px;
 }
 
 /* Stile lista */
@@ -138,6 +145,9 @@ input[type="text"]{
 input[type="submit"]{
   width: 30%;
   margin-left: 5px;
+  background-color: #706760;
+  color: white;
+  border-radius: 5px;
 }
 
 /* Sezione centrale */
