@@ -15,18 +15,27 @@
 
 /* Regole Header */
 
+.logo{
+  position: relative;
+  height: 220px;
+  background-image: url(img/logo.jpg);
+  background-size: cover;
+  border: 15px solid white;
+  color: white;
+}
+
+.titolo-pagina{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 nav{
-  /* debug */
   background-color: #504741;
   height: 50px;
   color: white;
-  /* fine debug */
-}
-
-.logo{
-  /* debug */
-  height: 150px;
-  /* fine debug */
 }
 
 body{
