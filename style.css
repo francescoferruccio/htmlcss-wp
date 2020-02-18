@@ -71,10 +71,9 @@ nav ul{
 }
 
 .nav-link{
-  display: inline-block;
   padding: 14px 10px;
   border-right: 1px solid rgba(0, 0, 0, .4);
-  /* margin-left: -5px; */
+  float: left;
 }
 
 nav ul li:last-child{
