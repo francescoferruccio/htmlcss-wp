@@ -17,11 +17,15 @@ a{
 }
 
 .main-container{
-  width: 90%;
+  width: 70%;
   margin: auto;
 }
 
 /* Regole Header */
+
+header{
+  margin: 10px 5px;
+}
 
 .logo{
   position: relative;
@@ -79,16 +83,13 @@ aside{
 
 .widgetleft{
   background-color: white;
-  margin: 5px;
+  margin: 10px 0;
   padding: 25px;
 }
 
 .widgetright{
-  /* debug */
-  height: 50px;
-  /* end debug */
   background-color: white;
-  margin: 5px;
+  margin: 10px 0;
 }
 
 .titolo-widget{
@@ -107,10 +108,43 @@ li{
   padding: 10px;
 }
 
+/* Stile search bar */
+
+.widgetright:first-child{
+  height: 90px;
+  position: relative;
+}
+
+.search-bar{
+  /* soluzione temporanea per centrare la barra di ricerca*/
+  display: flex;
+  /* fine soluzione temporanea */
+  width: 80%;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+input{
+  height: 100%;
+}
+
+input[type="text"]{
+  width: 70%;
+}
+
+input[type="submit"]{
+  width: 30%;
+  margin-left: 5px;
+}
+
 /* Sezione centrale */
 section{
   float: left;
   width: 50%;
+  padding: 5px;
 }
 
 .post{
