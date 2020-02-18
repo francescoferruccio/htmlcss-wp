@@ -1,11 +1,13 @@
 /* Regole generali */
 *{
-  /* debug */
-  border: 1px solid black;
-  /* end debug */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: #99cc33;
 }
 
 .main-container{
@@ -59,11 +61,20 @@ aside{
 }
 
 .widgetleft{
-  /* debug */
-  height: 50px;
-  /* end debug */
   background-color: white;
   margin: 5px;
+  padding: 25px;
+}
+
+/* Stile lista */
+
+ul{
+  padding: 5px;
+  list-style: none;
+}
+
+li{
+  padding: 10px;
 }
 
 /* Sezione centrale */
