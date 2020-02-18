@@ -44,12 +44,6 @@ header{
   text-align: center;
 }
 
-nav{
-  background-color: #504741;
-  height: 50px;
-  color: white;
-}
-
 h1{
   font-family: "Montserrat";
   font-size: 48px;
@@ -58,6 +52,35 @@ h1{
 .sottotitolo{
   font-family: "Montserrat";
   font-size: 19px;
+}
+
+/* Sezione Navbar */
+
+nav{
+  position: relative;
+  background-color: #504741;
+  height: 50px;
+}
+
+nav ul{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav-link{
+  display: inline-block;
+  border-right: 1px solid rgba(0, 0, 0, .4);
+}
+
+nav ul li:last-child{
+  border-right: none;
+}
+
+.nav-link a{
+  color: rgba(255, 255, 255, .7);
+  font-size: 14px;
 }
 
 /* Regole Body */
