@@ -1,0 +1,128 @@
+/* Regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container{
+  width: 90%;
+  margin: auto;
+}
+
+/* Regole Header */
+header{
+  /* debug */
+  background-color: yellow;
+  /* height: 200px; */
+  /* fine debug */
+}
+
+nav{
+  /* debug */
+  background-color: #504741;
+  height: 50px;
+  color: white;
+  /* fine debug */
+}
+
+.logo{
+  /* debug */
+  background-color: yellow;
+  height: 150px;
+  /* fine debug */
+}
+
+/* Regole Main */
+main{
+  /* debug */
+  background-color: green;
+  /* fine debug */
+}
+
+main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Sezione left */
+aside{
+  /* debug */
+  background-color: blue;
+  height: 100%;
+  /* fine debug */
+  float: left;
+  width: 25%;
+}
+
+.widgetleft{
+  /* debug */
+  background-color: white;
+  height: 100px;
+  /* fine debug */
+  margin: 5px;
+}
+
+/* Sezione centrale */
+section{
+  /* debug */
+  background-color: red;
+  height: 800px;
+  /* fine debug */
+  float: left;
+  width: 50%;
+}
+
+.post{
+  background-color: white;
+  margin: 5px;
+}
+
+/* Sezione right */
+
+.widgetright{
+  /* debug */
+  background-color: white;
+  height: 50px;
+  /* fine debug */
+  margin: 5px;
+}
+
+/* Regole footer */
+footer{
+  /* debug */
+  background-color: grey;
+  /* height: 200px; */
+  /* fine debug */
+}
+
+.box-small-footer{
+  /* debug */
+  background-color: white;
+  height: 150px;
+  border: 1px solid black;
+  /* fine debug */
+  float: left;
+  width: 20%;
+}
+
+.box-big-footer{
+  /* debug */
+  background-color: white;
+  height: 150px;
+  border: 1px solid black;
+  /* fine debug */
+  float: left;
+  width: 40%;
+}
+
+.pie-pagina{
+  /* debug */
+  background-color: white;
+  height: 50px;
+  border: 1px solid black;
+  /* fine debug */
+  clear: both;
+  width: 100%;
+}
