@@ -68,6 +68,7 @@ nav ul{
 
 .nav-link{
   display: inline-block;
+  padding: 16px 10px;
   border-right: 1px solid rgba(0, 0, 0, .4);
 }
 
@@ -79,6 +80,15 @@ nav ul li:last-child{
   text-decoration: none;
   color: rgba(255, 255, 255, .7);
   font-size: 14px;
+}
+
+.nav-link:hover{
+  background-color: #302B27;
+  cursor: pointer;
+}
+
+.nav-link a:hover{
+  text-decoration: none;
 }
 
 /* Regole Body */
@@ -106,6 +116,14 @@ aside{
   background-color: white;
   margin: 10px 0;
   padding: 25px;
+}
+
+li:hover{
+  background-color: rgba(0, 0, 0, .04);
+}
+
+a:hover{
+  text-decoration: underline;
 }
 
 .link-green{
@@ -180,6 +198,11 @@ input[type="submit"]{
   border-radius: 5px;
 }
 
+input[type="submit"]:hover{
+  background-color: #302B27;
+  cursor: pointer;
+}
+
 /* Sezione centrale */
 section{
   margin: 5px 0;
@@ -209,6 +232,11 @@ h2{
   font-size: 32px;
 }
 
+.link-articolo:hover{
+  text-decoration: none;
+  color: #669900;
+}
+
 .img-articolo{
   width: 100%;
   padding: 20px 0;
@@ -218,12 +246,21 @@ h2{
   font-size: 14px;
 }
 
+.info-post .far{
+  font-size: 16px;
+}
+
 .testo-post{
   margin: 20px 0;
 }
 
 .foot-articolo{
   padding: 20px 0;
+}
+
+.foot-articolo p{
+  background-color: #f9f9f9;
+  padding: 5px;
 }
 
 /* Regole footer */
@@ -286,13 +323,18 @@ footer::after{
   position: relative;
   display: inline-block;
   background-color: rgba(0, 0, 0, .06);
+  color: rgba(0, 0, 0, .35);
   border-radius: 50%;
   height: 40px;
   width: 40px;
 }
 
-.fab, .far{
-  color: rgba(0, 0, 0, .35);
+.link-social:hover{
+  background-color: rgba(0, 0, 0, .35);
+  color: white;
+}
+
+.social .fab, .social .far{
   position: absolute;
   top: 50%;
   left: 50%;
