@@ -9,6 +9,12 @@
   box-sizing: border-box;
 }
 
+/* Regole Body */
+body{
+  background-image: url(img/background.png);
+  font-family: "Montserrat";
+}
+
 .main-container{
   width: 70%;
   margin: auto;
@@ -42,12 +48,10 @@ header{
 }
 
 h1{
-  font-family: "Montserrat";
   font-size: 48px;
 }
 
 .sottotitolo{
-  font-family: "Montserrat";
   font-size: 19px;
 }
 
@@ -68,7 +72,7 @@ nav ul{
 
 .nav-link{
   display: inline-block;
-  padding: 16px 10px;
+  padding: 14px 10px;
   border-right: 1px solid rgba(0, 0, 0, .4);
 }
 
@@ -79,7 +83,7 @@ nav ul li:last-child{
 .nav-link a{
   text-decoration: none;
   color: rgba(255, 255, 255, .7);
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .nav-link:hover{
@@ -89,11 +93,6 @@ nav ul li:last-child{
 
 .nav-link a:hover{
   text-decoration: none;
-}
-
-/* Regole Body */
-body{
-  background-image: url(img/background.png);
 }
 
 /* Regole Main */
@@ -140,7 +139,6 @@ a:hover{
 }
 
 .titolo-widget{
-  font-family: "Montserrat";
   font-size: 18px;
 }
 
@@ -212,7 +210,6 @@ section{
 }
 
 .post{
-  font-family: "Roboto";
   font-size: 16px;
   color: #666666;
   background-color: white;
@@ -228,7 +225,6 @@ h2{
 .link-articolo{
   text-decoration: none;
   color: #504741;
-  font-family: "Montserrat";
   font-size: 32px;
 }
 
@@ -251,6 +247,7 @@ h2{
 }
 
 .testo-post{
+  font-family: "Roboto";
   margin: 20px 0;
 }
 
