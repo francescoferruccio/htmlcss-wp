@@ -228,32 +228,73 @@ h2{
 
 /* Regole footer */
 
-.box-small-footer{
-  /* debug */
+footer{
   background-color: white;
-  height: 150px;
-  border: 1px solid black;
-  /* fine debug */
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+footer::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.box-small-footer{
+  padding: 40px;
+  background-color: white;
   float: left;
   width: 20%;
 }
 
 .box-big-footer{
-  /* debug */
+  padding: 40px;
   background-color: white;
-  height: 150px;
-  border: 1px solid black;
-  /* fine debug */
   float: left;
   width: 40%;
 }
 
 .pie-pagina{
-  /* debug */
+  padding: 40px;
   background-color: white;
-  height: 50px;
-  border: 1px solid black;
-  /* fine debug */
   clear: both;
   width: 100%;
+  font-size: 14px;
+  color: #666666;
+}
+
+.link-footer{
+  text-decoration: none;
+  color: rgba(0, 0, 0, .35);
+}
+
+.testo-footer{
+  padding-top: 10px;
+}
+
+.copyright{
+  float: left;
+  padding-bottom: 40px;
+}
+
+.social{
+  float: right;
+  padding-bottom: 40px;
+}
+
+.link-social{
+  position: relative;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, .06);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.fab, .far{
+  color: rgba(0, 0, 0, .35);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
